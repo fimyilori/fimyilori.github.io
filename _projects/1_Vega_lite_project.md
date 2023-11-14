@@ -1,7 +1,7 @@
 ---
-name: Vega Lite Example Project
+name: Fimy Ilori HW 8
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
+image: assets/pngs/chart-1.png
 description: This is a "showcase" project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
