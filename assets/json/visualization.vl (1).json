@@ -1,0 +1,28 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {
+    "url": "https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv"
+  },
+  "mark": {"type": "circle", "filled": true},
+  "encoding": {
+    "color": {"field": "Total Floors", "type": "quantitative"},
+    "tooltip": [{"field": "Square Footage", "type": "quantitative"}],
+    "x": {"field": "Year Constructed", "type": "temporal"},
+    "y": {"field": "Total Floors", "type": "quantitative"}
+  },
+  "height": 300,
+  "params": [
+    {
+      "name": "param_1",
+      "select": {"type": "interval", "encodings": ["x", "y"]}
+    },
+    {
+      "name": "County",
+      "select": {"type": "point", "fields": ["County"]},
+      "bind": {"input": "select", "options": ["Peoria", "Oglesby", "Belvidere"]}
+    }
+  ],
+  "transform": [{"filter": {"param": "County"}}],
+  "width": 500,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json"
+}
