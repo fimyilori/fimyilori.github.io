@@ -11,7 +11,7 @@ custom_js:
 ---
 
 
-## Description of crimes by Location (Latitude and Longitude) in Rockford Illinois 2011-Present
+### Description of crimes by Location (Latitude and Longitude) in Rockford Illinois 2011-Present
 
 Plot and Analysis of first plot
 
