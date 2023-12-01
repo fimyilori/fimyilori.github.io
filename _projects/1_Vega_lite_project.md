@@ -1,8 +1,8 @@
 ---
-name: Fimy Ilori HW 8
+name: Final Project 3
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/plot1.png
-description: IS 445 HW #8 
+image: assets/pngs/Crime1.jpeg
+description: IS 445 Final Part 3.1 
 custom_js:
   - vega.min
   - vega-lite.min
