@@ -22,13 +22,14 @@ Plot and Analysis of first plot
 
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/CADOTW.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/CrimeAnalysis.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/wards.json" style="width: 100%"></vegachart>
 
 ## At least one central interactive visualization featuring your primary dataset. 
 
-There are two plots for our visualization that feature our primary dataset. The first plot titled “Crime Analysis by Day of the Week” is an analysis of crimes that occurred at a specific location displayed by Latitude and Longitude. You are able to select what day of the week you want to see the crime, and where it happened. The second plot shows the same Latitudinal and Longitudinal coordinates of crimes that happened in Rockford. A new feature however, is the ability to select what “Ward” that the person was assigned to and shift between 14 of them using a slider. The slide also changes the plot to only show people assigned to that specific ward or range or wards.
+Our plot is one that shows the Occuured Time of a crime on the X, and it's description on the Y. The time is in 24 hour format while the descriptions have many different entries. These descriptions can be narrowed down in to three seperate groups. Those groups are displayed as the color field and they are Crime against a person, property, or society. You are able to select through which ward you want to see that people were assigned. As you click through the wards, the selected ward negates all others and leaves you with every case in which someone was put in ward 1-14, when it happened, and what they are in for.
+
+We have additional visualizaitons on our "The Analytics" bottom if you wish to see a graph that shows a crime analysis by day of the week corresponding with a latittude and longitude. There is also a plot that shows the same latitude and longitude except with the option to have a range of locations for corresponding wards.
 
 ## At least two contextual visualizations
 
