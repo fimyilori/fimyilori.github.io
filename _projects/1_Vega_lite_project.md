@@ -33,9 +33,10 @@ There are two plots for our visualization that feature our primary dataset. The 
 ## At least two contextual visualizations
 
 https://police.illinois.edu/info/map/
+image: assets/pngs/BloomingtonCrimeMap.png
 
 https://www.opendatanetwork.com/entity/1600000US1712385-1600000US1805860/Champaign_IL-Bloomington_IN/crime.fbi_ucr.count?crime_type=Aggravated%20assault&year=2018
-
+image: assets/pngs/UIUCcrimeMap.png
 ## Connective information to help a novice understand what is happening in your datasets
 
 The datasets that we chose to use all concern the police incidents and crimes that have happened over a set period of time in the respective cities of Rockford (IL), Urbana (IL), and Bloomington (IN). We chose to use these datasets because they are all similarly-sized cities so we wanted to see a comparison of how much crime occurs in these cities and if there are any correlations such as the days the crimes occur, and what types of crimes are most common, just to name a few. 
