@@ -22,9 +22,9 @@ Plot and Analysis of first plot
 
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/visualization.vl (1).json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/CADOTW.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/visualization.vl (1).json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/wards.json" style="width: 100%"></vegachart>
 
 ## At least one central interactive visualization featuring your primary dataset. 
 
@@ -55,7 +55,7 @@ Yu, Aaron, et al. “Crime Map.” Public Safety, 26 June 2023, police.illinois.
 
 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/Austo-Rocket/Final-Project/main/cm_offense_archive.csv" text="The Data" %}
 </div>
 
 
